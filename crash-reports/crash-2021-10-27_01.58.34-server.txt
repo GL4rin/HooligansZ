@@ -1,0 +1,191 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  TenshiCore (TenshiLib-1.12.2-1.2.4.jar)
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.2.1.jar)
+  PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  PerformantLoadingPlugin (performant-1.12.2-1.10.jar)
+  EntityCullingPlugin (EntityCulling-1.12.2-4.1.5.jar)
+  LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  ForgelinPlugin (Forgelin-1.8.3.jar)
+  CosmicLibFakeCoreMod (CosmicLib-1.12.2-0.4.0.BETA.jar)
+  TickrateChanger (TickrateChanger-1.0.14.jar)
+  LoadingPlugin (HardcoreDarkness-MC1.12.2-2.0.jar)
+  weaponlib (mw_2.0-0.4.4.6_mc1.12.2.jar)
+  ThiccEntities Plugin (thiccentities-1.4.jar)
+  BetterFoliageLoader (BetterFoliage-MC1.12-2.3.3.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 10/27/21 1:58 AM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3181)
+	at java.util.ArrayList.grow(ArrayList.java:261)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:235)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:227)
+	at java.util.ArrayList.add(ArrayList.java:458)
+	at net.minecraft.world.storage.loot.LootEntryItem.func_186363_a(LootEntryItem.java:55)
+	at net.minecraft.world.storage.loot.LootPool.func_186452_a(LootPool.java:68)
+	at net.minecraft.world.storage.loot.LootPool.func_186449_b(LootPool.java:83)
+	at net.minecraft.world.storage.loot.LootTable.func_186462_a(LootTable.java:42)
+	at net.minecraft.world.storage.loot.LootTable.func_186460_a(LootTable.java:57)
+	at net.minecraft.entity.item.EntityMinecartContainer.func_184288_f(EntityMinecartContainer.java:281)
+	at net.minecraft.entity.item.EntityMinecartChest.func_174876_a(SourceFile:67)
+	at net.minecraft.entity.player.EntityPlayerMP.func_71007_a(EntityPlayerMP.java:899)
+	at net.minecraft.entity.item.EntityMinecartContainer.func_184230_a(EntityMinecartContainer.java:208)
+	at net.minecraft.entity.player.EntityPlayer.func_190775_a(EntityPlayer.java:1199)
+	at net.minecraft.network.NetHandlerPlayServer.func_147340_a(NetHandlerPlayServer.java:1075)
+	at net.minecraft.network.play.client.CPacketUseEntity.func_148833_a(SourceFile:69)
+	at net.minecraft.network.play.client.CPacketUseEntity.func_148833_a(SourceFile:13)
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(Util.java:47)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1265872224 bytes (1207 MB) / 9932111872 bytes (9472 MB) up to 9932111872 bytes (9472 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx10656m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 8, allocated: 20, tallocated: 86
+	FML: MCP 9.42 Powered by Forge 14.23.5.2855 Optifine OptiFine_1.12.2_HD_U_G5 73 mods loaded, 73 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version         | Source                                             | Signature                                |
+	|:------ |:-------------------- |:--------------- |:-------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2          | minecraft.jar                                      | None                                     |
+	| LCHIJA | mcp                  | 9.42            | minecraft.jar                                      | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99       | forge-1.12.2-14.23.5.2855.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                | 14.23.5.2855    | forge-1.12.2-14.23.5.2855.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | entity_culling       | 4.1.5           | minecraft.jar                                      | None                                     |
+	| LCHIJA | securitycraft        | v1.8.23.2       | [1.12.2]+SecurityCraft+v1.8.23.2.jar               | None                                     |
+	| LCHIJA | aiimprovements       | 0.0.1.3         | AIImprovements-1.12-0.0.1b3.jar                    | None                                     |
+	| LCHIJA | alcatrazcore         | 1.0.4           | alcatrazcore-1.0.4.jar                             | 3c2d6be715971d1ed58a028cdb3fae72987fc934 |
+	| LCHIJA | craftstudioapi       | 1.0.0           | CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar | None                                     |
+	| LCHIJA | animania             | 2.0.3.28        | animania-1.12.2-base-2.0.3.28.jar                  | None                                     |
+	| LCHIJA | applecore            | 3.4.0           | AppleCore-mc1.12.2-3.4.0.jar                       | None                                     |
+	| LCHIJA | crafttweaker         | 4.1.20          | CraftTweaker2-1.12-4.1.20.662.jar                  | None                                     |
+	| LCHIJA | jei                  | 4.16.1.302      | jei_1.12.2-4.16.1.302.jar                          | None                                     |
+	| LCHIJA | betterwithmods       | 1.12-2.3.24     | BetterWithMods-1.12-2.3.24.jar                     | None                                     |
+	| LCHIJA | appleskin            | 1.0.14          | AppleSkin-mc1.12-1.0.14.jar                        | None                                     |
+	| LCHIJA | eftm                 | [1.12.2]        | eftm-1.7.65.jar                                    | None                                     |
+	| LCHIJA | aushcore             | [1.12.2]        | aushcore-1.2.00.jar                                | None                                     |
+	| LCHIJA | medis                | 1.4.5           | Aysu's+Medical-1.12.2-v.1.4.5-RECHANGED.jar        | None                                     |
+	| LCHIJA | badmobs              | 1.1.40          | BadMobs-1.12.2-1.1.40.jar                          | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | forgelin             | 1.8.3           | Forgelin-1.8.3.jar                                 | None                                     |
+	| LCHIJA | betterfoliage        | 2.3.2           | BetterFoliage-MC1.12-2.3.3.jar                     | None                                     |
+	| LCHIJA | bloodmoon            | 1.5.3           | Bloodmoon-MC1.12.2-1.5.3.jar                       | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | bountiful            | 2.2.2           | Bountiful-2.2.2.jar                                | None                                     |
+	| LCHIJA | cases                | 0.4.2           | cases-0.4.2.jar                                    | None                                     |
+	| LCHIJA | clumps               | 3.1.2           | Clumps-3.1.2.jar                                   | None                                     |
+	| LCHIJA | codechickenlib       | 3.2.3.358       | CodeChickenLib-1.12.2-3.2.3.358-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | comforts             | 1.4.1.3         | comforts-1.12.2-1.4.1.3.jar                        | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+	| LCHIJA | extendedrenderer     | v1.0            | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+	| LCHIJA | coroutil             | 1.12.1-1.2.37   | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+	| LCHIJA | configmod            | v1.0            | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+	| LCHIJA | corpse               | 1.12.2-1.0.8    | corpse-1.12.2-1.0.8.jar                            | None                                     |
+	| LCHIJA | cosmiclib            | 0.4.0           | CosmicLib-1.12.2-0.4.0.BETA.jar                    | d3974446c00f9f1d275edce305771eeddf30c658 |
+	| LCHIJA | ctgui                | 1.0.0           | CraftTweaker2-1.12-4.1.20.662.jar                  | None                                     |
+	| LCHIJA | crafttweakerjei      | 2.0.3           | CraftTweaker2-1.12-4.1.20.662.jar                  | None                                     |
+	| LCHIJA | ctrades              | 1.3.3           | ctrades-1.3.3.jar                                  | None                                     |
+	| LCHIJA | dldungeonsjbg        | 1.14.9          | DoomlikeDungeons-1.14.9-MC1.12.2.jar               | None                                     |
+	| LCHIJA | orelib               | 3.6.0.1         | OreLib-1.12.2-3.6.0.1.jar                          | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHIJA | dsurround            | 3.6.2.1         | DynamicSurroundings-1.12.2-3.6.2.1.jar             | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHIJA | dynamictrees         | 1.12.2-0.9.25   | DynamicTrees-1.12.2-0.9.25.jar                     | None                                     |
+	| LCHIJA | firstaid             | 1.6.17          | firstaid-1.6.17.jar                                | 7904c4e13947c8a616c5f39b26bdeba796500722 |
+	| LCHIJA | grandeconomy         | 2.1.2           | GrandEconomy-1.12.2-2.1.2.jar                      | None                                     |
+	| LCHIJA | grandexchange        | 1.5.2           | GrandExchange-1.12.2-1.5.2.jar                     | None                                     |
+	| LCHIJA | hardcoredarkness     | 2.0             | HardcoreDarkness-MC1.12.2-2.0.jar                  | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | hardcorerevival      | 1.2.0           | HardcoreRevival_1.12.2-1.2.0.jar                   | None                                     |
+	| LCHIJA | iblis_headshots      | 1.2.6           | iblis-headshots-1.2.6.jar                          | None                                     |
+	| LCHIJA | ichunutil            | 7.2.2           | iChunUtil-1.12.2-7.2.2.jar                         | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | improvedmobs         | 1.6.10          | ImprovedMobs-1.12.2-1.6.10.jar                     | None                                     |
+	| LCHIJA | loottweaker          | 0.3.0           | LootTweaker-0.3.0+MC1.12.2.jar                     | None                                     |
+	| LCHIJA | jeresources          | 0.9.2.60        | JustEnoughResources-1.12.2-0.9.2.60.jar            | None                                     |
+	| LCHIJA | lttweaker            | 1.1.14          | LootTableTweaker-1.12.2-1.1.14.jar                 | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | lostcities           | 2.0.22          | lostcities-1.12-2.0.22.jar                         | None                                     |
+	| LCHIJA | mobdismemberment     | 7.0.0           | MobDismemberment-1.12.2-7.0.0.jar                  | None                                     |
+	| LCHIJA | mobsunscreen         | 1.12.2-2.1.3    | mobsunscreen-1.12.2-2.1.3.jar                      | None                                     |
+	| LCHIJA | mw                   | 0.4.4.6         | mw_2.0-0.4.4.6_mc1.12.2.jar                        | None                                     |
+	| LCHIJA | nonetherportals      | 1.0.0           | nonetherPortals_v1.0.0formc1.12.2.jar              | None                                     |
+	| LCHIJA | nospawnzone          | 1.12.2.1.3      | NoSpawnZone-1.12.2.1.3.jar                         | None                                     |
+	| LCHIJA | nei                  | 2.4.3           | NotEnoughItems-1.12.2-2.4.3.245-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHIJA | performant           | 1.12.2-1.4      | performant-1.12.2-1.10.jar                         | None                                     |
+	| LCHIJA | subcommonlib         | 1.2.0.1         | subcommonlib-sublib-1.12.2-1.2.0.4.jar             | None                                     |
+	| LCHIJA | petbuddy             | $version        | petbuddy-petbuddy-1.12.2-2.4.1.0.jar               | None                                     |
+	| LCHIJA | randomtp             | MC1.12.2-1.3.4  | RandomTP-MC1.12.2-1.3.5.jar                        | None                                     |
+	| LCHIJA | realistictorches     | 2.1.2           | RealisticTorches-1.12.2-2.1.2.jar                  | None                                     |
+	| LCHIJA | additionalstructures | 2.3.1           | Rex's-Additional-Structures-1.12.x-(v.2.3.1).jar   | None                                     |
+	| LCHIJA | tickratechanger      | 1.0.14          | TickrateChanger-1.0.14.jar                         | None                                     |
+	| LCHIJA | sleepingoverhaul     | 1.0.0           | SleepingOverhaul-1.12.2-1.0.0.jar                  | d3974446c00f9f1d275edce305771eeddf30c658 |
+	| LCHIJA | spartanshields       | 1.5.4           | SpartanShields-1.12.2-1.5.4.jar                    | None                                     |
+	| LCHIJA | tenshilib            | 1.2.4           | TenshiLib-1.12.2-1.2.4.jar                         | None                                     |
+	| LCHIJA | thiccentities        | GRADLE:VERSION  | thiccentities-1.4.jar                              | None                                     |
+	| LCHIJA | valkyrielib          | 1.12.2-2.0.20.1 | valkyrielib-1.12.2-2.0.20.1.jar                    | None                                     |
+	| LCHIJA | universalmodifiers   | 1.12.2-1.0.16.1 | valkyrielib-1.12.2-2.0.20.1.jar                    | None                                     |
+	| LCHIJA | zombieawareness      | 1.12.1-1.11.16  | zombieawareness-1.12.1-1.11.16.jar                 | None                                     |
+	| LCHIJA | phosphor-lighting    | 1.12.2-0.2.7    | phosphor-forge-mc1.12.2-0.2.7-universal.jar        | None                                     |
+	| LCHIJA | air_support          | 0.3.0           | AirSupport-0.3.0.jar                               | None                                     |
+
+	Loaded coremods (and transformers): 
+TenshiCore (TenshiLib-1.12.2-1.2.4.jar)
+  com.flemmli97.tenshilib.asm.ASMTransformer
+TransformLoader (DynamicSurroundings-1.12.2-3.6.2.1.jar)
+  
+PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+  
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+PerformantLoadingPlugin (performant-1.12.2-1.10.jar)
+  
+EntityCullingPlugin (EntityCulling-1.12.2-4.1.5.jar)
+  meldexun.entityculling.plugin.EntityCullingTransformer
+LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  lumien.bloodmoon.asm.ClassTransformer
+ForgelinPlugin (Forgelin-1.8.3.jar)
+  
+CosmicLibFakeCoreMod (CosmicLib-1.12.2-0.4.0.BETA.jar)
+  
+TickrateChanger (TickrateChanger-1.0.14.jar)
+  me.guichaguri.tickratechanger.TickrateTransformer
+LoadingPlugin (HardcoreDarkness-MC1.12.2-2.0.jar)
+  lumien.hardcoredarkness.asm.ClassTransformer
+weaponlib (mw_2.0-0.4.4.6_mc1.12.2.jar)
+  com.vicmatskiv.weaponlib.core.WeaponlibClassTransformer
+ThiccEntities Plugin (thiccentities-1.4.jar)
+  wiresegal.thicc.asm.ThiccAsmTransformer
+BetterFoliageLoader (BetterFoliage-MC1.12-2.3.3.jar)
+  mods.betterfoliage.loader.BetterFoliageTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Gravixs'/1358, l='New World', x=4594.14, y=69.05, z=10212.23]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 461.09
+	OpenGlRenderer: GeForce GTX 1660/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8

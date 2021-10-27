@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "name": "gear",
+      "entries": [
+        {
+          "entryName": "betterwithmods:material",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterwithmods:material"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "siding",
+      "entries": [
+        {
+          "entryName": "betterwithmods:siding_wood",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{texture:{Properties:{variant:\"oak\"},Name:\"minecraft:planks\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "betterwithmods:siding_wood"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

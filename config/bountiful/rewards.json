@@ -1,0 +1,22 @@
+[
+  {
+    "content": "minecraft:gold_ingot",
+    "unitWorth": 900,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:diamond",
+    "unitWorth": 2400,
+    "weight": 10
+  },
+  {
+    "content": "minecraft:iron_chestplate",
+    "unitWorth": 1800,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  }
+
+]
