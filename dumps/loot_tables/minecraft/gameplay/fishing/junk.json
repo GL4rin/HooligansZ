@@ -113,6 +113,13 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "harvestcraft.item.seaweeditem",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "harvestcraft:seaweeditem"
         }
       ],
       "rolls": 1.0

@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "name": "mod_pool",
+      "entries": [
+        {
+          "entryName": "minecraft:enchanted_book",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "extratan:apply_random_temp_prot"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        },
+        {
+          "entryName": "empty",
+          "weight": 90,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

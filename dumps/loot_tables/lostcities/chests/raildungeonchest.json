@@ -7978,6 +7978,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "medis:enerji"
@@ -8058,6 +8062,10 @@
                 "max": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "medis:surup_cig"
@@ -10172,6 +10180,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "medis:tenekeelma"
@@ -10204,6 +10216,10 @@
                 "max": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:bread"
@@ -10236,6 +10252,10 @@
                 "max": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "animania:truffle"
@@ -10252,6 +10272,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cooked_mutton"
@@ -10268,6 +10292,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "medis:tenekewater"
@@ -10284,6 +10312,10 @@
                 "max": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:carrot"
@@ -10300,6 +10332,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "medis:tenekehavuc"
@@ -10316,6 +10352,10 @@
                 "max": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:baked_potato"
@@ -10332,6 +10372,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "medis:tenekekarpuz"
@@ -10348,6 +10392,10 @@
                 "max": 1.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:pumpkin_pie"
@@ -10364,6 +10412,10 @@
                 "max": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:melon"
@@ -10396,6 +10448,10 @@
                 "max": 6.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cookie"
@@ -10412,6 +10468,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cooked_beef"
@@ -10428,6 +10488,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cooked_fish"
@@ -10444,6 +10508,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cooked_chicken"
@@ -10460,6 +10528,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cooked_porkchop"
@@ -10476,6 +10548,10 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
             }
           ],
           "name": "minecraft:cooked_rabbit"

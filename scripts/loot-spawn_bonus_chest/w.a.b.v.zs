@@ -139,6 +139,23 @@ LootTweaker.getTable("minecraft:chests/spawn_bonus_chest").getPool("weapons").ad
 LootTweaker.getTable("minecraft:chests/spawn_bonus_chest").getPool("weapons").addItemEntry(<eftm:sp8_survival_machete>, 1, 5,[Functions.setCount(0, 1)], []);
 LootTweaker.getTable("minecraft:chests/spawn_bonus_chest").getPool("weapons").addItemEntry(<eftm:antique_axe>, 1, 5,[Functions.setCount(0, 1)], []);
 LootTweaker.getTable("minecraft:chests/spawn_bonus_chest").getPool("weapons").addItemEntry(<eftm:crash_axe>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:machete>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:baseballbat>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:sythe>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:sledgehammer>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:switchblade>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:baton>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:spikedbaseballbat>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:katana>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:steelhatchet>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:stopsignaxe>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:cleaver>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:tacticalshovel>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:crowbar>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:golfclub>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:wrench>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<weapons_of_the_apocalypse:icepick>, 1, 5,[Functions.setCount(0, 1)], []);
+LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("weapons").addItemEntry(<air_support:utility_crate>, 1, 5,[Functions.setCount(0, 1)], []);
 
 
 

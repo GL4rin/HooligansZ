@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-10-29T10:00:51.8703335Z",
-  "playedCount": 267,
+  "lastPlayed": "2021-10-29T19:17:10.3629962Z",
+  "playedCount": 269,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -48,7 +48,7 @@
   "cachedScans": [],
   "isValid": true,
   "lastPreviousMatchUpdate": "2021-10-29T10:01:10.5488442Z",
-  "lastRefreshAttempt": "2021-10-29T05:12:41.2700352-05:00",
+  "lastRefreshAttempt": "2021-10-29T05:12:41.3647822-05:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -342,6 +342,104 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 228529,
+      "gameInstanceID": "a3077cc5-1a6b-4646-91e9-631b279f0a69",
+      "installedFile": {
+        "id": 3393955,
+        "displayName": "BetterFoliage-MC1.12-2.3.3.jar",
+        "fileName": "BetterFoliage-MC1.12-2.3.3.jar",
+        "fileDate": "2021-07-19T16:09:12.38Z",
+        "fileLength": 864681,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3393/955/BetterFoliage-MC1.12-2.3.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1269036598,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mods",
+            "fingerprint": 2215115631,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3145789500,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 483203356,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2533930839,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1399951332,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge",
+            "gameVersionTypeId": 68441
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2",
+            "gameVersionTypeId": 628
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2416629,
+        "projectId": 228529,
+        "packageFingerprintId": 708936761,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 3145284,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterFoliage-MC1.12-2.3.3.jar"
+      },
+      "dateInstalled": "2021-10-29T10:12:41.1142428Z",
+      "dateUpdated": "2021-10-29T10:12:41.1142428Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 74246,
@@ -1402,24 +1500,6 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
-    },
-    {
-      "addonID": 231347,
-      "gameInstanceID": "a3077cc5-1a6b-4646-91e9-631b279f0a69",
-      "installedFile": null,
-      "dateInstalled": "2021-10-29T10:01:10.9943046Z",
-      "dateUpdated": "2021-10-29T10:01:10.9943046Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
     },
     {
       "addonID": 225810,
