@@ -1,5 +1,5 @@
-#Fri Oct 22 15:05:15 CDT 2021
-shaderPack=
+#Fri Oct 29 04:58:18 CDT 2021
+shaderPack=Triliton`s shaders V5 Ultra (Chocapic13`s Shaders edit).zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
