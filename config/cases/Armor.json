@@ -1,0 +1,36 @@
+{
+    "displayName": {
+    "en_us": "Armor Case"
+  },
+  "contents": [
+    {"action": "single", "type": "mw:stars_chest", "rarity": 0},
+    {"action": "single", "type": "mw:stars_boots", "rarity": 0},
+    {"action": "single", "type": "mw:spec_ops_helmet", "rarity": 1},
+    {"action": "single", "type": "mw:spec_ops_chest", "rarity": 1},
+    {"action": "single", "type": "mw:spec_ops_boots", "rarity": 1},
+    {"action": "single", "type": "mw:swat_helmet", "rarity": 1},
+    {"action": "single", "type": "mw:swat_chest", "rarity": 1},
+    {"action": "single", "type": "mw:swat_boots", "rarity": 1},
+    {"action": "single", "type": "mw:santa_helmet", "rarity": 2},
+    {"action": "single", "type": "mw:santa_chest", "rarity": 2},
+    {"action": "single", "type": "mw:santa_boots", "rarity": 2},
+    {"action": "single", "type": "mw:nazisanta_helmet", "rarity": 2},
+    {"action": "single", "type": "mw:nazisanta_chest", "rarity": 2},
+    {"action": "single", "type": "mw:nazisanta_boots", "rarity": 2},
+    {"action": "single", "type": "mw:juggernaut_helmet", "rarity": 3},
+    {"action": "single", "type": "mw:juggernaut_chest", "rarity": 3},
+    {"action": "single", "type": "mw:juggernaut_boots", "rarity": 3},
+    {"action": "single", "type": "mw:astronaut_helmet", "rarity": 3},
+    {"action": "single", "type": "mw:tactical_helmet", "rarity": 3},
+    {"action": "single", "type": "mw:doom_helmet", "rarity": 4},
+    {"action": "single", "type": "mw:mkvi_main_helmet", "rarity": 4},
+    {"action": "single", "type": "mw:mkvi_main_chest", "rarity": 4},
+    {"action": "single", "type": "mw:mkvi_main_boots", "rarity": 4},
+    {"action": "single", "type": "mw:mkv_default_odst_helmet", "rarity": 4},
+    {"action": "single", "type": "mw:mkv_default_odst_chest", "rarity": 4},
+    {"action": "single", "type": "mw:mkv_default_odst_boots", "rarity": 4}
+  ],
+  "color": "#FFE892"
+}
+
+
