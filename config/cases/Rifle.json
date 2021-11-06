@@ -1,0 +1,25 @@
+{
+    "displayName": {
+    "en_us": "Rifle Case"
+  },
+  "contents": [
+    {"action": "single", "type": "mw:springfield", "rarity": 0},
+    {"action": "single", "type": "mw:uzi", "rarity": 0},
+    {"action": "single", "type": "mw:mp5a5", "rarity": 1},
+    {"action": "single", "type": "mw:stg44", "rarity": 1},
+    {"action": "single", "type": "mw:ak103_bullpup", "rarity": 2},
+    {"action": "single", "type": "mw:remington870", "rarity": 2},
+    {"action": "single", "type": "mw:m1_garand", "rarity": 3},
+    {"action": "single", "type": "mw:mk14_ebr", "rarity": 3},
+    {"action": "single", "type": "mw:srs99", "rarity": 3},
+    {"action": "single", "type": "mw:quad_barrel_shotgun", "rarity": 3},
+    {"action": "single", "type": "mw:m82_barrett", "rarity": 4},
+    {"action": "single", "type": "mw:m249", "rarity": 4},
+    {"action": "single", "type": "mw:rpg7", "rarity": 4}
+  ],
+  "color": "#02020B"
+}
+
+
+
+

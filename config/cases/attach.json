@@ -1,0 +1,26 @@
+{
+    "displayName": {
+    "en_us": "MK1 Case"
+  },
+  "contents": [
+    {"action": "single", "type": "mw:okp7", "rarity": 0},
+    {"action": "single", "type": "mw:reflex", "rarity": 0},
+    {"action": "single", "type": "mw:bijiareflex", "rarity": 0},
+    {"action": "single", "type": "mw:acog", "rarity": 0},
+    {"action": "single", "type": "mw:specter", "rarity": 1},
+    {"action": "single", "type": "mw:holographicalt", "rarity": 1},
+    {"action": "single", "type": "mw:vortex_sight", "rarity": 1},
+    {"action": "single", "type": "mw:microt1", "rarity": 2},
+    {"action": "single", "type": "mw:rmrsight", "rarity": 2},
+    {"action": "single", "type": "mw:laser2", "rarity": 2},
+    {"action": "single", "type": "mw:laser", "rarity": 3},
+    {"action": "single", "type": "mw:dmrscope", "rarity": 3},
+    {"action": "single", "type": "mw:nightraiderscope", "rarity": 4},
+    {"action": "single", "type": "mw:hpscope", "rarity": 4}
+  ],
+  "color": "#62FF6B"
+}
+
+
+
+

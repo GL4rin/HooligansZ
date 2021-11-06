@@ -1,0 +1,12 @@
+{
+  "inventory": {
+    "0:4": "medis:agrikesici,4",
+    "0:3": "firstaid:bandage,3",
+    "0:2": "medis:konservetavuk,4,0,{Rot:{start:47040L,time:168000L}}",
+    "0:1": "medis:tenekewater,4,0,{Rot:{start:47040L,time:168000L}}",
+    "0:0": "cases:case,1,0,{caseName:\"melee\"}",
+    "1:0": "mw:spec_ops_boots",
+    "0:5": "minecraft:written_book,1,0,{pages:[\"{\\\"text\\\":\\\"Press P for your pet\\\"}\"],author:\"Gravixs\",title:\"Welcome\",resolved:1b}",
+    "1:2": "mw:stars_chest"
+  }
+}

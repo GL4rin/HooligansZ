@@ -1,0 +1,19 @@
+{
+    "displayName": {
+    "en_us": "Heavy Case"
+  },
+  "contents": [
+    {"action": "single", "type": "mw:m67frag", "rarity": 1},
+    {"action": "single", "type": "mw:impactgrenade", "rarity": 1},
+    {"action": "single", "type": "mw:gasgrendae", "rarity": 2},
+    {"action": "single", "type": "securitycraft:mine", "rarity": 2},
+    {"action": "single", "type": "securitycraft:bouncing_betty", "rarity": 3},
+    {"action": "single", "type": "securitycraft:claymore", "rarity": 3},
+    {"action": "single", "type": "securitycraft:ims", "rarity": 4}
+  ],
+  "color": "#FF8900"
+}
+
+
+
+

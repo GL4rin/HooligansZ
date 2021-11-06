@@ -1,0 +1,22 @@
+{
+    "displayName": {
+    "en_us": "Melee Case"
+  },
+  "contents": [
+    {"action": "single", "type": "weapons_of_the_apocalypse:crowbar", "rarity": 0},
+    {"action": "single", "type": "weapons_of_the_apocalypse:golfclub", "rarity": 0},
+    {"action": "single", "type": "weapons_of_the_apocalypse:katana", "rarity": 0},
+    {"action": "single", "type": "weapons_of_the_apocalypse:electricbaton", "rarity": 1},
+    {"action": "single", "type": "weapons_of_the_apocalypse:thehomedefender", "rarity": 1},
+    {"action": "single", "type": "weapons_of_the_apocalypse:stopsignaxe", "rarity": 1},
+    {"action": "single", "type": "weapons_of_the_apocalypse:thehomedefender", "rarity": 2},
+    {"action": "single", "type": "mw:night_stick", "rarity": 2},
+    {"action": "single", "type": "mw:tactical_tomahawk", "rarity": 3},
+    {"action": "single", "type": "mw:baseball_bat_nails", "rarity": 3},
+    {"action": "single", "type": "eftm:kiba_arms_tactical_tomahawk", "rarity": 4},
+    {"action": "single", "type": "eftm:red_rebel_icepick", "rarity": 4}
+  ],
+  "color": "#0A020B"
+}
+
+

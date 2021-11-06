@@ -1,0 +1,22 @@
+{
+    "displayName": {
+    "en_us": "Pistol Case"
+  },
+  "contents": [
+    {"action": "single", "type": "mw:p226", "rarity": 0},
+    {"action": "single", "type": "mw:m1911", "rarity": 0},
+    {"action": "single", "type": "mw:python", "rarity": 1},
+    {"action": "single", "type": "mw:sw_500_magnum", "rarity": 1},
+    {"action": "single", "type": "mw:glock_18c", "rarity": 2},
+    {"action": "single", "type": "mw:glock_19", "rarity": 2},
+    {"action": "single", "type": "mw:m6c", "rarity": 3},
+    {"action": "single", "type": "mw:m712", "rarity": 3},
+    {"action": "single", "type": "mw:chiappa_rhino", "rarity": 4},
+    {"action": "single", "type": "mw:desert_eagle", "rarity": 4}
+  ],
+  "color": "#4E4E4E"
+}
+
+
+
+
